@@ -145,11 +145,11 @@ table {
 
 .main-table thead,
 .main-table .dropdown-item {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 .main-table tbody {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #fff;
 }
 
@@ -203,3 +203,15 @@ table {
 .users-gender p {
     font-size: 3rem;
 }
+
+.monthly-stats .form-control, .monthly-stats option {
+    font-size: 1.6rem;
+}
+
+.monthly-stats .info {
+    font-size: 1.8rem;
+}
+.monthly-stats .number {
+    font-size: 1.4rem;
+}
+
