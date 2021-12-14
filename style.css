@@ -12,7 +12,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     font-family: 'Montserrat', sans-serif;
     background-color: #181D23;
 }
@@ -22,11 +21,13 @@ body {
 }
 
 .panel {
-    width: 1600px;
-    height: 1000px;
+    max-width: 1600px;
+    max-height: 1000px;
     border: 1px solid #4B5769;
     border-radius: 15px;
     overflow: hidden;
+    
+
 }
 
 .panel-left {
